@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login Form</title>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            background-color: #f0f2f5; /* Light gray background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            width: 350px; /* Standard form width */
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+            text-align: center;
+        }
+
+        .icon-placeholder {
+            font-size: 50px;
+            color: #1877f2; /* Facebook blue */
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .login-container form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px; /* Space between form elements */
+        }
+
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 14px 16px;
+            border: 1px solid #dddfe2;
+            border-radius: 6px;
+            font-size: 17px;
+            box-sizing: border-box; /* Include padding in the element's total width and height */
+        }
+
+        .login-container input[type="submit"] {
+            background-color: #1877f2; /* Facebook blue for button */
+            color: white;
+            padding: 14px 16px;
+            border: none;
+            border-radius: 6px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .login-container input[type="submit"]:hover {
+            background-color: #166fe5; /* Slightly darker blue on hover */
+        }
+
+        .forgot-password {
+            font-size: 14px;
+            text-decoration: none;
+            color: #1877f2;
+            display: block;
+            margin-top: 10px;
+        }
+
+        .divider {
+            border-bottom: 1px solid #dadde1;
+            margin: 20px 0;
+        }
+
+        .create-account-button {
+            background-color: #42b72a; /* Facebook green for secondary button */
+            color: white;
+            padding: 14px 16px;
+            border: none;
+            border-radius: 6px;
+            font-size: 17px;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .create-account-button:hover {
+            background-color: #36a420;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+
+        <div class="icon-placeholder">
+            facebook
+        </div>
+        <form action="#" method="POST">
+            <input type="text" placeholder="Email address or phone number" required>
+            <input type="password" placeholder="Password" required>
+            <input type="submit" value="Log In">
+        </form>
+
+        <a href="#" class="forgot-password">Forgot password?</a>
+
+        <div class="divider"></div>
+
+        <a href="#" class="create-account-button">Create new account</a>
+    </div>
+
+</body>
+</html>
