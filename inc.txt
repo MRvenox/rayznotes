@@ -1,0 +1,263 @@
+*SUMMATION*
+
+
+#include <stdio.h>
+
+int main() {
+    int num1, num2, num3, sum;
+
+    printf("Enter first number: ");
+    scanf("%d", &num1);
+
+    printf("Enter second number: ");
+    scanf("%d", &num2);
+
+    printf("Enter third number: ");
+    scanf("%d", &num3);
+
+    sum = num1 + num2 + num3;
+
+    printf("The sum is: %d\n", sum);
+
+    return 0;
+}
+
+
+*SUPER MARKET*
+
+
+#include <stdio.h>
+
+
+/* MUKWAYA RAYMOND.K */
+//2a
+
+int main() {
+	
+	char item1[15],item2[15],item3[15];
+	int price1,price2,price3,qty,amount1,amount2,amount3,cost;
+	
+	printf ("\n\t ENTER ITEM:");
+	scanf("%s", &item1);
+
+	printf("\n\t ENTER price1:");
+	scanf("%d",&price1);
+
+		printf ("\n\t ENTER QTY:");
+		scanf("%d",&qty);
+		
+		amount1=qty*price1;
+		
+		printf("\n\t%d*%d=%d,amount1,qty,price1,item1");
+		
+			printf ("\n\t ENTER ITEM");
+	scanf("%s", &item2);
+	printf("\n\t ENTER price2:");
+	scanf("%d",&price2);
+		printf ("\n\t ENTER QTY");
+		scanf("%d" ,&qty);
+		
+		amount2=qty*price2;
+		
+		printf("\n\t%d*%d=%d,amount2,qty,price2,item2");
+		
+			printf ("\n\t ENTER ITEM");
+	scanf("%s" ,&item3);
+	printf("\n\t ENTER price3:");
+	scanf("%d",&price3);
+		printf ("\n\t ENTER QTY:");
+		scanf("%d",&qty);
+		
+		amount3=qty*price3;
+		
+		printf("\n\t%d*%d=%d",amount3,qty,price3,item3);
+		
+		cost=amount1+amount2+amount3;
+		printf("\n\t%d+%d+%d=%d",cost,amount1,amount2,amount3);
+		
+		printf("\n\t ENTER AMOUNT PAID:");
+		scanf("%d",amount,amount);
+		
+		
+		
+		printf("\n\t TOTAL COST=%d",cost);
+		
+	
+	return 0;
+}
+
+
+
+
+
+*CIRCLE*
+
+
+#include <stdio.h>
+
+
+/* MUKWAYA RAYMOND KAGGWA */
+
+int main() {
+	
+	float radius,area;
+	const float PI = 3.14159;
+	
+	
+	printf("Enter radius of the circle:");
+	scanf("%f", &radius);
+	
+	area = PI * radius * radius;
+	
+	
+	printf("Area of circcle = %.2f\n",area);
+	return 0;
+}
+
+
+
+*GRADE*
+
+
+
+#include<stdio.h>
+
+//MUKWAYA .R
+/*2A*/
+//REG NO.
+main()
+
+	{
+		int marks=0,i;
+
+printf("\n\t YCI GRADING SYSTEM:");
+printf("\n\t==========================:");
+printf("\n\t _____________________________:");
+
+	for(i=1;i<=10;i++)
+{
+	printf("\n\t ENTER THE MARKS:");
+	scanf("%d",&marks);
+
+	if(marks>=0 && marks<=49)
+{
+	printf("\n\t GRADE:F\n\t COMMENT:RETAKE");
+}
+else if(marks<=59 && marks>=50)
+{
+	printf("\n\t GRADE:D\n\t COMMENT:FAIR");
+}
+else if(marks<=69 && marks>=60)
+{
+	printf("\n\t GRADE:C\n\t COMMENT:GOOD");
+}
+else if(marks<=79 && marks>=70)
+{
+	printf("\n\t GRADE:B\n\t COMMENT:V.GOOD");
+}
+else if(marks<=100 && marks>=80)
+{
+	printf("\n\t GRADE:A\n\t COMMENT:EXCELLENT");
+}
+else 
+printf("\n\t GRADE:ENDED\n\t COMMENT:TRY AGAIN");
+}
+return 0;
+}
+
+
+*DAY ACTIVITY*
+
+
+
+#include<stdio.h>
+
+//MUKWAYA .R
+/*2A*/
+//REG NO.
+main()
+
+	{ 
+	int day;
+	
+
+	printf("\n\t DAYS AND ACTIVTIES DONE ON @DAY:");
+	printf("\n\t BY @VEENOX:");
+	printf("\n\t ******************************:");
+	printf("\n\t ****************************|**:");
+
+	printf("\n\t ENTER THE DAY NUMBER:");
+	scanf("%d",&day);
+if(day==1)
+{
+
+printf("\n\t DAY:SUNDAY\n\t ACTIVITY:CHURCH:\n\t ACTIVITY 2:BETTING:");
+}
+else if(day==2)
+{
+printf("\n\t DAY:MONDAY\n\t ACTIVITY:CLASS:\n\t ACTIVITY 2:BETTING:");
+}
+else if(day==3)
+{
+printf("\n\t DAY:TUEDAY\n\t ACTIVITY:PROGRAMMING CLASS:\n\t ACTIVITY 2:BETTING:");
+}
+else if(day==4)
+{	
+printf("\n\t DAY:WEDNESDAY\n\t ACTIVITY 1:WORK:\n\t ACTIVITY 2:BETTING:");
+}
+else if(day==5)
+{	
+printf("\n\t DAY:THURSDAY\n\t ACTIVITY:RELAX:\n\t ACTIVITY 2:BETTING:");
+}
+else if(day==6)
+{	
+printf("\n\t DAY:FRIDAY\n\t ACTIVITY:MOSQUE:\n\t ACTIVITY 2:BETTING:");
+}
+else if(day==7)
+{	
+printf("\n\t DAY:SATURDAY\n\t ACTIVITY:FOOTBALL:\n\t ACTIVITY 2:BETTING:");
+}
+else
+{	
+printf("\n\t DAY:NOTHING\n\t ACTIVITY:TRY AGAIN:\n\t ACTIVITY 2:BETTING:");
+}
+return 0;
+}
+
+
+	
+*DIS OF NO,*
+
+#include<stdio.h>
+
+//MUKWAYA .R
+/*2A*/
+//REG NO.
+main()
+{
+
+      int num,sum=0;
+      
+
+
+	printf("\n\t DISPLAY OF 15 NUMBERS AND THEIR SUM:");
+	printf("\n\t BY @VEENOX:");
+	printf("\n\t ******************************:");
+	printf("\n\t ******************************:");
+
+		for(num=1;num<=15;num++)
+{
+	printf("\n\t %d",num);
+	sum=(sum+num);
+	
+}
+printf("\n\t The sum of 15 numbers is %d",sum);
+
+return 0;
+}
+
+*
+
+
+
+
