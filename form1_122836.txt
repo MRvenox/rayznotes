@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>HTML FORM EXAMPLE</h1>
+    <fieldset>
+        <legend >RIGESTRION FORM</legend>
+     
+    <form>
+    
+     NAME <input type="text" placeholder="ENTER NAME"><br>
+     <br>
+     Email <input type="text" name="ENTER EMAIL">
+     
+     PASSWORD <input type="text" name="PASSWORD"><br>
+       <br>
+     <label for="gender"><strong>Gender:</strong></label><br>
+    <br>
+     <input type="radio" id="Male" value="male"> 
+     <label for="Male">Male</label>
+
+     <input type="radio" id="Female" value="Female"> 
+     <label for="Female">Female</label><br>
+     <br>
+     <label for="Hobbies"><strong>Hobbies</strong></label><br>
+    <br>
+     
+      <label>Playing</label>
+      <input type="checkbox" id="Playing" name="hobbies" value="playing">
+
+     <label>Dance</label>
+     <input type="checkbox" id="Dance" name="hobbies" value="Dance">
+
+     <label>Eating</label>
+     <input type="checkbox" id="Eating" name="hobbies" value="Eating">
+
+     <label>Crying</label>
+     <input type="checkbox" id="Crying" name="hobbies" value="Crying">
+
+     <label>Laughing</label>
+     <input type="checkbox" id="Laughing" name="hobbies" value="Laughing">
+     <br>
+     <br>
+     <label>tennis</label>
+     <input type="checkbox" id="tennis" name="hobbies" value="tennis">
+
+     <label>Sleeping</label>
+     <input type="checkbox" id="Sleeping" name="hobbies" value="Sleeping">
+
+     <label>Singing</label>
+     <input type="checkbox" id="Singing" name="hobbies" value="Singing">
+
+     <label>Volley ball</label>
+     <input type="checkbox" id="Volley" name="hobbies" value="Volley">
+
+     <label>Football play</label>
+     <input type="checkbox" id="Football" name="hobbies" value="Football">
+
+     <p><u>Result</u></p>
+     Academic papers:<input type="file" id="upload"><br>
+      
+      <br>
+    <Button>Submit</Button>
+
+    <br>
+    <h2>Time of Birth</h2>
+    time:<input type="time" name="newinput"/>
+     <input type="submit" value="submit"/>
+     <br>
+
+     <h3>Month of Birth</h3>
+     Month:<input type="month" name="newinput"/>
+     <input type="submit" value="submit">
+       
+    <h3>week</h3>
+    Week:<input type="week" name="newinput"/>
+    <input type="submit" value="submit"/>
+
+    <h2>select course</h2>
+    choose from the <list:m></list:m>
+
+    <p>COURSE LIST :</p>
+   <p> <SElect name="DROPDOWN">
+      <option value="COMPUTER SCIENCE" selected>Computer SCIENCE</option>
+      <option value="COMPUTER SCIENCE"> business Admission</option>
+      <option value="COMPUTER SCIENCE">Cosmetogy</option>
+      <option value="COMPUTER SCIENCE">Fashion and design</option>
+      <option value="COMPUTER SCIENCE">Sectretatiral</option>
+      <option value="COMPUTER SCIENCE">English Course</option>
+
+    </SElect>
+   </p>
+    DESCRIPTION: <br>
+    <textarea name="DESCRIPTION" cols="50" rows="5"></textarea>
+
+</fieldset>
+</form>
+
+<h2>WELCOME TO ONLINE VIDEO AND AUDIO STORE</h2>
+<h1>videos AVAILABLE</h1>
+
+<video width="320" height="240" controls>
+    <source src="Imagine Dragons - Thunder.mp4" type="video/mp4">
+</video>
+
+<video width="320" height="240" controls>
+    <source src="Luis Fonsi - Despacito ft. Daddy Yankee.mp4" type="video/mp4">
+</video>
+
+<video width="320" height="240" controls>
+    <source src="Imagine Dragons - Thunder.mp4" type="video/mp4">
+
+</video>
+<hr>
+h
+<audio controls>
+    <source src="asake_dupe_mp3_65035.mp3" type="audio/mp3">
+
+</audio>
+
+<audio controls>
+    <source src="asake_dupe_mp3_65035.mp3" type="audio/mp3">
+
+</audio>
+
+<audio controls>
+    <source src="asake_dupe_mp3_65035.mp3" type="audio/mp3">
+
+</audio>
+
+<audio controls>
+    <source src="asake_dupe_mp3_65035.mp3" type="audio/mp3">
+
+</audio>
+
+<audio controls>
+    <source src="asake_dupe_mp3_65035.mp3" type="audio/mp3">
+
+</audio>
+
+<audio controls>
+    <source src="asake_dupe_mp3_65035.mp3" type="audio/mp3">
+
+</audio>
+
+<audio controls>
+    <source src="asake_dupe_mp3_65035.mp3" type="audio/mp3">
+
+</audio>
+
+<audio controls>
+    <source src="asake_dupe_mp3_65035.mp3" type="audio/mp3">
+
+</audio>
+
+</body>
+</html>
